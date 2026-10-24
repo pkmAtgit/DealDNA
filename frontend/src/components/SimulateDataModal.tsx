@@ -16,9 +16,6 @@ interface DealItem {
   current_status?: string;
 }
 
-const API_BASE = (
-  process.env.NEXT_PUBLIC_API_URL || "https://dealdna-api.onrender.com"
-).replace(/\/$/, "");
 
 export default function SimulateDataModal({ isOpen, onClose, onSuccess }: Props) {
   // Hardcoded array hata diya gaya hai, ab state se aayega
@@ -29,6 +26,10 @@ export default function SimulateDataModal({ isOpen, onClose, onSuccess }: Props)
   const [callStatus, setCallStatus] = useState("Connected");
   const [transcriptText, setTranscriptText] = useState("");
   const [loading, setLoading] = useState(false);
+  
+const API_BASE = (
+  process.env.NEXT_PUBLIC_API_URL || "https://dealdna-api.onrender.com"
+).replace(/\/$/, "");
 
   // 1. Modal open hote hi backend JSON se live customers fetch karein
   useEffect(() => {
