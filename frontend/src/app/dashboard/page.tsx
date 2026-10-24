@@ -41,7 +41,7 @@ export default function DashboardPage() {
     }
     setResetting(true);
     try {
-      const res = await fetch("${API_BASE}/api/dashboard/reset-transcripts", {
+      const res = await fetch(`${API_BASE}/api/dashboard/reset-transcripts`, {
         method: "POST",
       });
       if (res.ok) {
