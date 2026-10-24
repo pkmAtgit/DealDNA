@@ -1,0 +1,36 @@
+[
+  {
+    "intervention_id": "INT-01",
+    "deal_id": "DEAL-4821",
+    "action": "Schedule finance + decision-maker call",
+    "why_now": "Engagement fell after price objection",
+    "status": "Planned",
+    "suggested_owner": "Sales Manager + Relationship Manager",
+    "expected_impact": "Medium-High",
+    "checklist": [
+      "Confirm decision-makers",
+      "Clarify budget",
+      "Share payment plan"
+    ],
+    "outcome": null,
+    "prob_before": 32,
+    "prob_after": null
+  },
+  {
+    "intervention_id": "INT-02",
+    "deal_id": "DEAL-4822",
+    "action": "Revised payment plan offer",
+    "why_now": "Buyer requested flexible milestone schedule",
+    "status": "Completed",
+    "suggested_owner": "R. Singh",
+    "expected_impact": "High",
+    "checklist": [
+      "Draft 20:80 subvention plan",
+      "Get finance approval",
+      "Present to client"
+    ],
+    "outcome": "Objection resolved",
+    "prob_before": 55,
+    "prob_after": 100
+  }
+]

@@ -1,0 +1,431 @@
+[
+  {
+    "id": "01",
+    "title": "Login / Welcome",
+    "subtitle": "Secure access to DealDNA",
+    "nav_active": "Command Center",
+    "kpis": [],
+    "workspace": [
+      "Email address & Password authentication",
+      "Remember me & Forgot password recovery flow",
+      "Sign in button",
+      "Continue with Google / Microsoft (SSO integration)"
+    ],
+    "insight": "Secure sign-in and workspace entry.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "02",
+    "title": "Command Center",
+    "subtitle": "Good morning, Sarah",
+    "nav_active": "Command Center",
+    "kpis": [
+      {
+        "value": "₹2.4M",
+        "label": "Revenue at risk"
+      },
+      {
+        "value": "₹1.1M",
+        "label": "Recovery opportunity"
+      },
+      {
+        "value": "6",
+        "label": "Active experiments"
+      }
+    ],
+    "workspace": [
+      "Revenue at risk: ₹2.4M",
+      "Recovery opportunity: ₹1.1M",
+      "Active experiments: 6",
+      "Revenue trend by month",
+      "Deal health distribution",
+      "Top interventions and priority alerts"
+    ],
+    "insight": "Executive snapshot with urgent actions first.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "03",
+    "title": "Revenue at Risk",
+    "subtitle": "Recoverable revenue across active deals",
+    "nav_active": "Revenue at Risk",
+    "kpis": [
+      {
+        "value": "₹4.2M",
+        "label": "At-risk revenue"
+      },
+      {
+        "value": "83%",
+        "label": "Healthy deals"
+      },
+      {
+        "value": "24",
+        "label": "Priority opportunities"
+      }
+    ],
+    "workspace": [
+      "Filters: project, stage, risk type, owner, value band",
+      "Deal / Property | Risk reason | Recovery value | Probability | Owner | Action",
+      "Riverside Tower | Follow-up gap | ₹320K | High | A. Mehta | View",
+      "Maple Residences | Price objection | ₹275K | High | R. Singh | View",
+      "Oakwood Commercial | Client disengagement | ₹210K | Medium | S. Khan | View",
+      "Assign owner · Export list"
+    ],
+    "insight": "Rank opportunities by recoverability and urgency.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "04",
+    "title": "Portfolio Health",
+    "subtitle": "Portfolio revenue health",
+    "nav_active": "Portfolio Health",
+    "kpis": [
+      {
+        "value": "₹24.8M",
+        "label": "Total pipeline"
+      },
+      {
+        "value": "₹4.2M",
+        "label": "At risk"
+      },
+      {
+        "value": "83%",
+        "label": "Healthy deals"
+      }
+    ],
+    "workspace": [
+      "Total pipeline: ₹24.8M",
+      "At-risk revenue: ₹4.2M",
+      "Healthy deals: 83%",
+      "Revenue mix by property type",
+      "Performance by region and sales stage",
+      "Project-level risk table"
+    ],
+    "insight": "Compare projects and spot revenue leakage.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "05",
+    "title": "Deal Details & AI Insights",
+    "subtitle": "Riverside Tower · Deal #4821",
+    "nav_active": "Deal Insights",
+    "kpis": [
+      {
+        "value": "32%",
+        "label": "Current probability"
+      },
+      {
+        "value": "₹4.8M",
+        "label": "Expected value"
+      },
+      {
+        "value": "45 days",
+        "label": "In current stage"
+      }
+    ],
+    "workspace": [
+      "Current probability: 32% · Previous: 51%",
+      "Expected booking value: ₹4.8M",
+      "Stage: Closing · Days in stage: 45",
+      "Owner: Michael Torres",
+      "Tabs: Overview · Timeline · Interventions · History",
+      "AI insights with evidence and confidence"
+    ],
+    "insight": "Understand deal health, supporting evidence, and likely causes.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "06",
+    "title": "Event Timeline",
+    "subtitle": "Chronological deal activity",
+    "nav_active": "Deal Insights",
+    "kpis": [],
+    "workspace": [
+      "12 Sep · Site visit completed · CRM · Positive",
+      "15 Sep · Price objection recorded · Call note · Negative",
+      "18 Sep · No follow-up for 6 days · CRM · Negative",
+      "21 Sep · Finance options sent · Email · Positive",
+      "Filter by calls, visits, messages, and stage changes",
+      "Open source record from each event"
+    ],
+    "insight": "A traceable timeline behind the current deal state.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "07",
+    "title": "Root Cause Analysis",
+    "subtitle": "Why is this deal at risk?",
+    "nav_active": "Deal Insights",
+    "kpis": [],
+    "workspace": [
+      "Primary cause: follow-up gap after site visit",
+      "Contributing factor: price objection unresolved",
+      "Evidence: 6 days since meaningful contact",
+      "Evidence: buyer asked for revised payment plan",
+      "Confidence: 82% (illustrative)",
+      "Recommended next step: structured finance conversation"
+    ],
+    "insight": "Explain risk with evidence rather than a black-box score.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "08",
+    "title": "Intervention Recommendation",
+    "subtitle": "Recommended action plan",
+    "nav_active": "Interventions",
+    "kpis": [],
+    "workspace": [
+      "Recommendation: schedule finance + decision-maker call",
+      "Why now: engagement fell after price objection",
+      "Expected impact: medium–high",
+      "Suggested owner: sales manager + relationship manager",
+      "Suggested script and preparation checklist",
+      "Accept · Edit · Dismiss with reason"
+    ],
+    "insight": "Turn an insight into a specific, reviewable action.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "09",
+    "title": "Intervention Execution",
+    "subtitle": "Execute and track the action",
+    "nav_active": "Interventions",
+    "kpis": [],
+    "workspace": [
+      "Intervention: finance + decision-maker call",
+      "Owner and due date",
+      "Checklist: confirm decision-makers; clarify budget; share payment plan",
+      "Status: Planned / In progress / Completed",
+      "Log call outcome and next commitment",
+      "Attach notes or supporting documents"
+    ],
+    "insight": "Assign, execute, and track the intervention.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "10",
+    "title": "Intervention Outcome",
+    "subtitle": "Record what happened",
+    "nav_active": "Interventions",
+    "kpis": [],
+    "workspace": [
+      "Outcome: Re-engaged / No response / Objection resolved / Lost",
+      "Buyer response and new objection",
+      "Next step and follow-up date",
+      "Deal probability before vs after",
+      "Revenue outcome: recovered / influenced / unchanged",
+      "Save outcome and evidence"
+    ],
+    "insight": "Close the learning loop with structured outcomes.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "11",
+    "title": "Experiment Center",
+    "subtitle": "Revenue experiments",
+    "nav_active": "Experiments",
+    "kpis": [],
+    "workspace": [
+      "Tabs: All · Running · Completed · Paused",
+      "Price objection recovery | Running | 84 deals | +10%",
+      "Second visit impact | Running | 52 deals | +12%",
+      "Alternate unit with discount | Completed | +21%",
+      "Owner · Dates · Status · Impact",
+      "Create experiment"
+    ],
+    "insight": "Monitor tests and compare status and outcomes.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "12",
+    "title": "Create Experiment",
+    "subtitle": "Define a testable revenue hypothesis",
+    "nav_active": "Experiments",
+    "kpis": [],
+    "workspace": [
+      "Experiment name and hypothesis",
+      "Target project / deal segment",
+      "Variable: pricing, timing, message, offer, or owner",
+      "Control group and treatment variants",
+      "Start date · End date · Success metric",
+      "Save draft · Launch experiment"
+    ],
+    "insight": "Design a fair test before scaling an intervention.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "13",
+    "title": "Experiment Results",
+    "subtitle": "Price Objection Recovery · Results",
+    "nav_active": "Experiments",
+    "kpis": [
+      {
+        "value": "+12%",
+        "label": "Conversion lift"
+      },
+      {
+        "value": "+8%",
+        "label": "Revenue impact"
+      },
+      {
+        "value": "+3",
+        "label": "Incremental deals"
+      }
+    ],
+    "workspace": [
+      "Status: Completed",
+      "Total deals: 84 · Completed: 31 · Active: 53",
+      "Conversion rate by variant",
+      "Revenue impact and relative uplift",
+      "Confidence and sample-size caveat",
+      "Apply to eligible portfolio"
+    ],
+    "insight": "Compare treatment and control without overstating causality.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "14",
+    "title": "Revenue Impact",
+    "subtitle": "Incremental revenue and attribution",
+    "nav_active": "Revenue Impact",
+    "kpis": [
+      {
+        "value": "₹1.1M",
+        "label": "Revenue recovered"
+      },
+      {
+        "value": "₹4.2M",
+        "label": "Revenue at risk"
+      },
+      {
+        "value": "82%",
+        "label": "Attribution confidence"
+      }
+    ],
+    "workspace": [
+      "Revenue at risk detected",
+      "Recoverable revenue estimated",
+      "Revenue recovered",
+      "Incremental lift vs baseline / control",
+      "Impact by intervention, project, and owner",
+      "Attribution confidence and assumptions"
+    ],
+    "insight": "Separate observed revenue from estimated and incremental impact.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "15",
+    "title": "Intervention Library",
+    "subtitle": "Reusable intervention playbooks",
+    "nav_active": "Interventions",
+    "kpis": [],
+    "workspace": [
+      "Categories: Price · Finance · Follow-up · Decision-maker · Inventory fit",
+      "Playbook name and trigger condition",
+      "Recommended steps and message template",
+      "Expected outcome and evidence strength",
+      "Version history and usage performance",
+      "Create / Edit playbook"
+    ],
+    "insight": "Build a reusable library of measured actions.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "16",
+    "title": "Client & Stakeholder Insights",
+    "subtitle": "Client profile · Riverside Tower",
+    "nav_active": "Deal Insights",
+    "kpis": [],
+    "workspace": [
+      "Client profile and buying role",
+      "Preferences and unit requirements",
+      "Budget range and decision-maker alignment",
+      "Risk signals and communication history",
+      "Recommended next engagement",
+      "Send personalized proposal"
+    ],
+    "insight": "Give the team relevant buyer context with appropriate access controls.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "17",
+    "title": "Property Performance",
+    "subtitle": "Maple Residences · Project performance",
+    "nav_active": "Properties",
+    "kpis": [
+      {
+        "value": "24",
+        "label": "Units sold"
+      },
+      {
+        "value": "₹620K",
+        "label": "Average price"
+      },
+      {
+        "value": "18%",
+        "label": "Conversion rate"
+      }
+    ],
+    "workspace": [
+      "Total units sold: 24",
+      "Average ticket price: ₹620K",
+      "Conversion rate: 18%",
+      "Sales value: ₹14.9M",
+      "Sales trend: volume vs revenue",
+      "Top insights and recurring objections"
+    ],
+    "insight": "Review project performance, trends, and blockers.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "18",
+    "title": "Sales Team Intelligence",
+    "subtitle": "Team effectiveness and coaching",
+    "nav_active": "Reports",
+    "kpis": [],
+    "workspace": [
+      "Team member | At-risk deals | Intervention speed | Outcomes",
+      "A. Mehta | 8 | 2.1 days | 4 recovered",
+      "R. Singh | 6 | 1.4 days | 3 recovered",
+      "Response time and follow-up consistency",
+      "Coaching opportunities, not vanity rankings",
+      "Filter by project and period"
+    ],
+    "insight": "Help managers coach execution quality, not just rank staff.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "19",
+    "title": "Data Health & Integrations",
+    "subtitle": "Data readiness and connected systems",
+    "nav_active": "Reports",
+    "kpis": [],
+    "workspace": [
+      "CRM connection status and last sync",
+      "Field mapping and event coverage",
+      "Missing owner / stage / value fields",
+      "Duplicate records and stale events",
+      "Sources: CRM · Email · Calendar · Data warehouse",
+      "Test connection · Re-sync · View issues"
+    ],
+    "insight": "Make source data quality visible and actionable.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  },
+  {
+    "id": "20",
+    "title": "Governance & Settings",
+    "subtitle": "Workspace settings and governance",
+    "nav_active": "Settings",
+    "kpis": [],
+    "workspace": [
+      "Profile · Team · Roles · Data · Integrations",
+      "Role-based access and project permissions",
+      "Audit log and approval controls",
+      "Data retention and consent configuration",
+      "Recommendation explanation settings",
+      "Save changes"
+    ],
+    "insight": "Provide administrative control and traceability.",
+    "next_step": "Review evidence -> assign owner -> record outcome -> measure impact."
+  }
+]

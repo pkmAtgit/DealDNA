@@ -1,0 +1,142 @@
+[
+  {
+    "event_id": "EVT-1001-01",
+    "deal_id": "DD-1001",
+    "legacy_id": "DEAL-4821",
+    "timestamp": "12 Sep 2026",
+    "event_type": "Site Visit",
+    "source": "Site visit system",
+    "sentiment": "Positive",
+    "description": "12 Sep · Site visit completed with spouse for 2 BHK · Positive"
+  },
+  {
+    "event_id": "EVT-1001-02",
+    "deal_id": "DD-1001",
+    "legacy_id": "DEAL-4821",
+    "timestamp": "15 Sep 2026",
+    "event_type": "Call Note",
+    "source": "Telephony",
+    "sentiment": "Negative",
+    "description": "15 Sep · Monthly EMI affordability concern flagged by Aarav · Negative"
+  },
+  {
+    "event_id": "EVT-1001-03",
+    "deal_id": "DD-1001",
+    "legacy_id": "DEAL-4821",
+    "timestamp": "18 Sep 2026",
+    "event_type": "CRM Gap",
+    "source": "CRM",
+    "sentiment": "Negative",
+    "description": "18 Sep · Follow-up gap: No contact logged for 6 days after visit · Negative"
+  },
+  {
+    "event_id": "EVT-1001-04",
+    "deal_id": "DD-1001",
+    "legacy_id": "DEAL-4821",
+    "timestamp": "21 Sep 2026",
+    "event_type": "Email",
+    "source": "Email",
+    "sentiment": "Positive",
+    "description": "21 Sep · Revised bank payment structure and EMI models emailed · Positive"
+  },
+  {
+    "event_id": "EVT-1002-01",
+    "deal_id": "DD-1002",
+    "legacy_id": "DEAL-4822",
+    "timestamp": "02 Oct 2026",
+    "event_type": "Site Visit",
+    "source": "Site visit system",
+    "sentiment": "Positive",
+    "description": "02 Oct · 3 BHK layout walkthrough completed at Maple Residences · Positive"
+  },
+  {
+    "event_id": "EVT-1002-02",
+    "deal_id": "DD-1002",
+    "legacy_id": "DEAL-4822",
+    "timestamp": "05 Oct 2026",
+    "event_type": "Call Note",
+    "source": "Call note",
+    "sentiment": "Negative",
+    "description": "05 Oct · Competitor price objection logged; buyer requested 8% reduction · Negative"
+  },
+  {
+    "event_id": "EVT-1002-03",
+    "deal_id": "DD-1002",
+    "legacy_id": "DEAL-4822",
+    "timestamp": "08 Oct 2026",
+    "event_type": "CRM Gap",
+    "source": "CRM",
+    "sentiment": "Negative",
+    "description": "08 Oct · No response on WhatsApp/Email for 4 days · Negative"
+  },
+  {
+    "event_id": "EVT-1003-01",
+    "deal_id": "DD-1003",
+    "legacy_id": "DEAL-4824",
+    "timestamp": "10 Aug 2026",
+    "event_type": "Site Visit",
+    "source": "CRM",
+    "sentiment": "Positive",
+    "description": "10 Aug · First walkthrough completed · Positive"
+  },
+  {
+    "event_id": "EVT-1003-02",
+    "deal_id": "DD-1003",
+    "legacy_id": "DEAL-4824",
+    "timestamp": "14 Aug 2026",
+    "event_type": "Call Note",
+    "source": "Call note",
+    "sentiment": "Negative",
+    "description": "14 Aug · Unit-fit hesitation; father requested alternative layout comparison · Negative"
+  },
+  {
+    "event_id": "EVT-1004-01",
+    "deal_id": "DD-1004",
+    "legacy_id": "DEAL-4821",
+    "timestamp": "18 Aug 2026",
+    "event_type": "Call Note",
+    "source": "Call note",
+    "sentiment": "Negative",
+    "description": "18 Aug · Loan clearance pending from primary lender; booking paused · Negative"
+  },
+  {
+    "event_id": "EVT-1004-02",
+    "deal_id": "DD-1004",
+    "legacy_id": "DEAL-4821",
+    "timestamp": "22 Aug 2026",
+    "event_type": "CRM Gap",
+    "source": "CRM",
+    "sentiment": "Negative",
+    "description": "22 Aug · Follow-up overdue by 5 days · Negative"
+  },
+  {
+    "event_id": "EVT-1007-01",
+    "deal_id": "DD-1007",
+    "legacy_id": "DEAL-4823",
+    "timestamp": "10 Aug 2026",
+    "event_type": "Proposal",
+    "source": "CRM",
+    "sentiment": "Positive",
+    "description": "10 Aug · Commercial space proposal shared with VP · Positive"
+  },
+  {
+    "event_id": "EVT-1007-02",
+    "deal_id": "DD-1007",
+    "legacy_id": "DEAL-4823",
+    "timestamp": "22 Aug 2026",
+    "event_type": "Call Note",
+    "source": "Call note",
+    "sentiment": "Negative",
+    "description": "22 Aug · Executive sponsor left organization; stakeholder uncontactable · Negative"
+  },
+  {
+    "event_id": "EVT-1007-03",
+    "deal_id": "DD-1007",
+    "legacy_id": "DEAL-4823",
+    "timestamp": "01 Sep 2026",
+    "event_type": "CRM Gap",
+    "source": "CRM",
+    "sentiment": "Negative",
+    "description": "01 Sep · No response on WhatsApp/Email for 10 days · Negative"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "experiment_id": "EXP-01",
+    "name": "Price objection recovery",
+    "hypothesis": "Offering a structured payment plan within 48h of a price objection increases conversion by 10%",
+    "status": "Running",
+    "deals_count": 84,
+    "completed_deals": 31,
+    "active_deals": 53,
+    "conversion_lift": "+10%",
+    "revenue_impact": "+8%",
+    "incremental_deals": "+3",
+    "owner": "Sarah Johnson"
+  },
+  {
+    "experiment_id": "EXP-02",
+    "name": "Second visit impact",
+    "hypothesis": "Scheduling a family site visit within 7 days of first visit boosts closing velocity",
+    "status": "Running",
+    "deals_count": 52,
+    "completed_deals": 20,
+    "active_deals": 32,
+    "conversion_lift": "+12%",
+    "revenue_impact": "+11%",
+    "incremental_deals": "+4",
+    "owner": "A. Mehta"
+  },
+  {
+    "experiment_id": "EXP-03",
+    "name": "Alternate unit with discount",
+    "hypothesis": "Pitching lower-floor inventory with a 3% spot discount recovers stalled price-sensitive buyers",
+    "status": "Completed",
+    "deals_count": 60,
+    "completed_deals": 60,
+    "active_deals": 0,
+    "conversion_lift": "+21%",
+    "revenue_impact": "+15%",
+    "incremental_deals": "+6",
+    "owner": "R. Singh"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "positive_commitments": [
+    "booking amount", "token amount", "token ready", "token payment", "token transfer",
+    "rtgs done", "neft done", "cheque ready", "cheque collected", "cheque handed over",
+    "allotted", "allotment done", "finalize the deal", "finalise the deal", "proceed with booking",
+    "sign agreement", "ready to sign", "booking form signed", "lock the flat", "lock the unit",
+    "hold with token", "confirm booking", "deposit paid", "transfer initiated", "sanction letter received",
+    "down payment ready", "ready to proceed", "send account details", "sharing payment screenshot",
+    "advance payment made", "deal finalized", "ready with token", "agreement draft ready",
+    "submitting booking form", "token clear ho gaya", "token de diya", "payment kar diya"
+  ],
+  "negative_overrides": [
+    "cancel the deal", "cancelling the deal", "deal cancelled", "refund my amount", "refund request",
+    "not interested", "not intrested", "not interested this property", "drop the plan",
+    "dropping the plan", "will not proceed", "cannot proceed", "will not buy", "backing out",
+    "deal is off", "no longer looking", "look elsewhere", "stop calling", "do not call",
+    "not planning now", "nahi lena", "nahi chahiye", "plan drop", "cancel kar do",
+    "man badal gaya", "not moving forward", "discard the deal", "stop the process",
+    "decision is no", "we are dropping", "deal drop ho gayi", "koi interest nahi hai"
+  ],
+  "price_competitor_signals": [
+    "another developer", "kisi or developer", "aur developer", "dusra developer", "dusre builder",
+    "doosra project", "dusra project", "other project", "another project", "competing project",
+    "competitor", "market comparison", "rate high", "price high", "too high",
+    "higher than another", "budget stretched", "budget exceed", "budget issue", "out of budget",
+    "mehenga", "bohot mehenga", "expensive", "costly", "sasta mil raha", "cheaper option",
+    "better deal elsewhere", "discount chahiye", "discount do", "give discount", "more discount",
+    "quote is high", "sq ft rate", "price gap", "cost breakdown", "itemised breakdown",
+    "breakdown first", "market rate se zyada", "negotiate price", "reduce price", "final offer price",
+    "overpriced", "looking at other properties", "meeting with another builder", "evaluating options",
+    "options dekh rahe", "comparing quotes", "builder price high", "heavy discount elsewhere",
+    "alternate developer meeting", "price match", "high quoted price", "budget constraint"
+  ],
+  "finance_loan_signals": [
+    "salary slip", "salery slip", "pay slip", "form 16", "itr filing", "income proof",
+    "loan issue", "loan problem", "loan approval", "loan rejected", "loan decline",
+    "bank delay", "documents delay", "documents dealey", "deley in documents", "doc delay",
+    "cibil score", "cibil issue", "low cibil", "eligibility issue", "loan sanction",
+    "bank has not confirmed", "bank reject", "emi concern", "monthly emi", "emi high",
+    "interest rate high", "down payment short", "lender coordination", "finance desk",
+    "bank statement pending", "disbursement delay", "banking issue", "funding problem",
+    "loan amount short", "loan eligibility", "bank approval pending", "co-applicant required",
+    "loan clear nahi hua", "bank clearance pending", "finance issue"
+  ],
+  "inventory_mismatch_signals": [
+    "another unit", "dusra unit", "alternate unit", "different unit", "other flat",
+    "dusra flat", "different layout", "layout issue", "floor plan", "higher floor",
+    "lower floor", "corner unit", "facing issue", "vastu issue", "carpet area small",
+    "room size small", "tower a", "tower b", "sunlight issue", "balcony small",
+    "view not good", "unit fit", "not the right fit", "do you have another",
+    "check availability", "unit sold", "alternative option", "inventory check",
+    "park facing", "road facing", "club facing", "layout not matching", "alternate floor",
+    "different configuration", "want 3bhk instead", "unit mismatch"
+  ],
+  "timing_pause_signals": [
+    "abhi plan nahi", "not planning currently", "postpone", "hold for now", "hold the process",
+    "pause the process", "call me later", "call next week", "call next month", "after a month",
+    "family emergency", "medical emergency", "hospital", "admitted", "health issue",
+    "tabiyat kharab", "travelling", "traveling", "out of station", "out of town",
+    "flight", "relocation", "shifting", "busy with work", "busy right now", "tight schedule",
+    "after diwali", "after holi", "next financial year", "no urgency", "pause for few weeks",
+    "call after 10 days", "postpone decision", "review later", "hold on booking"
+  ],
+  "stakeholder_alignment_signals": [
+    "father", "father needs to understand", "papa se baat", "family decision", "family consultation",
+    "discuss with wife", "wife wants to see", "spouse visit", "family visit", "joint family",
+    "decision maker", "ca review", "lawyer check", "consultant opinion", "mother visit",
+    "parents approval", "brother walkthrough", "joint discussion", "need second opinion",
+    "stakeholder meeting", "investor approval", "partner consultation", "family approval pending"
+  ]
+}
