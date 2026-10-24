@@ -33,7 +33,7 @@ export default function SimulateDataModal({ isOpen, onClose, onSuccess }: Props)
   // 1. Modal open hote hi backend JSON se live customers fetch karein
   useEffect(() => {
     if (isOpen) {
-      fetch("${API_BASE}/api/dashboard/deals-list")
+      fetch(`${API_BASE}/api/dashboard/deals-list`)
         .then((res) => res.json())
         .then((data: DealItem[]) => {
           setDealsList(data);
@@ -68,7 +68,7 @@ export default function SimulateDataModal({ isOpen, onClose, onSuccess }: Props)
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await fetch("${API_BASE}/api/dashboard/simulate-call", {
+      const res = await fetch(`${API_BASE}/api/dashboard/simulate-call`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
