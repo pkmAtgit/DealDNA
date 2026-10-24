@@ -7,7 +7,8 @@ import Link from "next/link";
 import DevTraceSection from "./DevTraceSection";
 import SimulateDataModal from "@/components/SimulateDataModal";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "${API_BASE}";
+// Fallback to local port 8000 and strip any trailing slash
+const API_BASE = (process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
 
 export default function DashboardPage() {
   const [data, setData] = useState<any>(null);
@@ -17,7 +18,7 @@ export default function DashboardPage() {
 
   const fetchDashboard = async () => {
     try {
-      // Timestamp cache-busting taaki live recalculation turant fetch ho
+      // Cache-busting timestamp ensures instant updates on simulation
       const res = await fetch(`${API_BASE}/api/dashboard/kpis?t=${Date.now()}`);
       if (res.ok) {
         const json = await res.json();
@@ -34,9 +35,9 @@ export default function DashboardPage() {
     fetchDashboard();
   }, []);
 
-  // Sirf transcripts.json ko init_transcripts.json se restore karne ka handler
+  // Restore conversation transcripts back to baseline
   const handleResetTranscripts = async () => {
-    if (!confirm("Do you want to reset the conversation transcripts back to the initial baseline?")) {
+    if (!confirm("Are you sure you want to reset all transcripts back to initial blueprint baseline?")) {
       return;
     }
     setResetting(true);
@@ -46,14 +47,14 @@ export default function DashboardPage() {
       });
       if (res.ok) {
         await fetchDashboard();
-        alert("✅ The transcripts have been restored to the initial baseline!");
+        alert("The transcripts have been successfully restored to the initial baseline.");
       } else {
         const errData = await res.json();
-        alert(`Reset error: ${errData.detail || "Failed to reset"}`);
+        alert(`Reset error: ${errData.detail || "Failed to reset transcripts"}`);
       }
     } catch (err) {
       console.error("Reset error:", err);
-      alert("Backend reset endpoint se connect nahi ho saka.");
+      alert("Failed to connect to backend reset service.");
     } finally {
       setResetting(false);
     }
@@ -85,17 +86,17 @@ export default function DashboardPage() {
         </div>
 
         <div className="flex items-center gap-2.5">
-          {/* 🔄 DEV RESET BUTTON: Sirf conversation transcripts reset karega, timeline events safe rahenge */}
+          {/* RESET BUTTON */}
           <button
             onClick={handleResetTranscripts}
             disabled={resetting}
             className="flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3 py-2 rounded-lg border border-slate-300 transition-all cursor-pointer disabled:opacity-50"
-            title="Sirf transcripts ko init_transcripts.json se restore karega"
+            title="Restore conversation transcripts back to initial blueprint baseline"
           >
             <span>{resetting ? "Resetting..." : "🔄 Reset Transcripts"}</span>
           </button>
 
-          {/* ⚡ LIVE AI DATA INGESTION BUTTON */}
+          {/* SIMULATE CALL BUTTON */}
           <button
             onClick={() => setIsModalOpen(true)}
             className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-3.5 py-2 rounded-lg shadow-sm transition-all cursor-pointer"
