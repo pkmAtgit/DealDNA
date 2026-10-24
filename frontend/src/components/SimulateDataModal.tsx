@@ -16,7 +16,9 @@ interface DealItem {
   current_status?: string;
 }
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+const API_BASE = (
+  process.env.NEXT_PUBLIC_API_URL || "https://dealdna-api.onrender.com"
+).replace(/\/$/, "");
 
 export default function SimulateDataModal({ isOpen, onClose, onSuccess }: Props) {
   // Hardcoded array hata diya gaya hai, ab state se aayega

@@ -19,7 +19,7 @@ export default function DashboardPage() {
   const fetchDashboard = async () => {
     try {
       // Cache-busting timestamp ensures instant updates on simulation
-      const res = await fetch(`/api/dashboard/kpis?t=${Date.now()}`);
+      const res = await fetch(`${API_BASE}/api/dashboard/kpis?t=${Date.now()}`);
       if (res.ok) {
         const json = await res.json();
         setData(json);
@@ -42,7 +42,7 @@ export default function DashboardPage() {
     }
     setResetting(true);
     try {
-      const res = await fetch(`/api/dashboard/reset-transcripts`, {
+      const res = await fetch(`${API_BASE}/api/dashboard/reset-transcripts`, {
         method: "POST",
       });
       if (res.ok) {
